@@ -1,0 +1,295 @@
+$shipmendo_primary: #ff942d;
+
+.shipmendo-lite-box {
+  .cargo-companies {
+    display: block;
+    width: calc(100% - 10px);
+    float: left;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: #f9f9f9;
+    border-radius: 4px;
+
+    .single-cargo-company {
+      display: inline-block;
+      margin: 0;
+      width: calc(100% / 3);
+      float: left;
+      text-align: center;
+
+      input[type="radio"] {
+        display: none
+      }
+
+      label {
+        padding: 5px;
+        float: left;
+        width: calc(100% - 10px);
+        display: block;
+      }
+
+      span {
+        text-align: center;
+        float: left;
+        width: 100%;
+        box-shadow: 0 0 3px transparent;
+        border-radius: 4px;
+        transition: all .2s ease-in-out;
+
+        strong {
+          width: 100%;
+          display: block;
+          font-weight: normal;
+          font-size: 10px;
+          margin-top: 5px;
+          white-space: nowrap;
+        }
+
+        img {
+          width: 35px;
+        }
+      }
+
+      input[type="radio"]:checked ~ span {
+        box-shadow: 0 0 3px #999;
+        background: #fff;
+      }
+
+    }
+  }
+
+  .tracking-number-input {
+    text-align: center;
+
+    input {
+      text-align: left
+    }
+  }
+}
+
+#shipmendo-container {
+  float: left;
+  width: calc(100% - 20px);
+
+  a {
+    &:active, &:focus {
+      box-shadow: 0 0 0;
+      outline: none;
+    }
+  }
+
+  * {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+
+  .shipmendo-lite-settings-table {
+    text-align: left;
+
+    th {
+      vertical-align: top;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    tr {
+      ul {
+        margin-top: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, .35);
+        width: calc(100% - 20px);
+
+        li {
+          &.shortlist-title {
+            margin-top: 10px;
+            font-weight: 400;
+            text-decoration: underline;
+            font-size: 14px;
+          }
+
+          strong {
+            cursor: pointer;
+            width: 250px;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  .shipmendo-lite-top-navbar {
+    width: 100%;
+    display: block;
+    background: rgb(255, 169, 86);
+    background: linear-gradient(20deg, rgba(255, 169, 86, 1) 0%, rgba(255, 126, 0, 1) 100%);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+
+    .shipmendo-lite-brand {
+      float: left;
+      margin-right: 20px;
+      line-height: 50px;
+      border-right: 1px solid #fff;
+      padding-right: 20px;
+      padding-left: 10px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+      }
+    }
+
+    .shipmendo-lite-top-navbar-div {
+      float: left;
+
+      .shipmendo-lite-top-navbar-ul {
+        padding: 0;
+        margin: 0;
+
+        .shipmendo-lite-top-navbar-nav-item {
+          display: inline-block;
+          padding: 16px 20px;
+          margin-bottom: 0;
+
+          &.shipmendo-upgrade-button {
+            padding: 8px 10px;
+            background-color: #f7f7f7;
+            border-radius: 4px;
+
+            a {
+              color: #484848;
+            }
+          }
+
+          img {
+            float: left;
+            line-height: 50px;
+            margin-top: 2px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      font-weight: 500;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+
+    .grilabs-logo {
+      float: right;
+      padding-right: 15px;
+      height: 40px;
+      margin-top: 10px;
+    }
+  }
+
+  .grilabs-ads {
+    display: block;
+    float: left;
+    width: 100%;
+    border-top: 4px solid $shipmendo_primary;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .single-ad {
+      width: calc(100% / 3 - 20px);
+      display: inline-block;
+      padding: 10px;
+      text-align: center;
+
+      img {
+        max-width: 90%;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+    }
+
+    .promo-text {
+      text-align: center;
+      font-size: 16px;
+      border: 1px solid $shipmendo_primary;
+      background: rgba(255, 255, 255, .35);
+      border-radius: 4px;
+      width: 720px;
+      max-width: 100%;
+      float: none;
+      display: inherit;
+      margin: 10px auto;
+
+      a {
+        margin-left: 20px;
+      }
+
+      img {
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .ad-list {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .shipmendo-plugin-content {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+
+    display: block;
+    width: 100%;
+    float: left;
+  }
+}
+
+#adminmenu > li > .toplevel_page_shipmendo-lite {
+  background: rgb(255, 169, 86) !important;
+  background: linear-gradient(20deg, rgba(255, 169, 86, 1) 0%, rgba(255, 126, 0, 1) 100%) !important;
+  font-style: italic !important;
+  color: #fff !important;
+  transition: opacity .15s;
+
+  &:not(.current) {
+    opacity: .8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &:active, &:focus {
+    color: #fff !important;
+  }
+
+  img {
+    opacity: 1 !important;
+  }
+}
+.tracking-status-input {
+  text-align: center;
+  input {
+    outline: none !important;
+  }
+}

@@ -1,0 +1,211 @@
+# Copyright (C) 2021 shipmendo - Lite
+# This file is distributed under the same license as the shipmendo - Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: shipmendo - Lite 1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shipmendo-lite\n"
+"POT-Creation-Date: 2021-11-08 08:29:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ShipmendoLite.php:30
+msgid ""
+"Dear {customer_name}, Your order(#{order_number}) shipped with "
+"{cargo_company_info}. To track your shipping: {url}"
+msgstr ""
+
+#. #-#-#-#-#  shipmendo-lite.pot (shipmendo - Lite 1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: ShipmendoLite.php:53 ShipmendoLite.php:54
+msgid "shipmendo - Lite"
+msgstr ""
+
+#: ShipmendoLite.php:66
+msgid "Customer Name"
+msgstr ""
+
+#: ShipmendoLite.php:70
+msgid "Order Number"
+msgstr ""
+
+#: ShipmendoLite.php:74
+msgid "Order ID"
+msgstr ""
+
+#: ShipmendoLite.php:78 ShipmendoLite.php:371 ShipmendoLite.php:452
+#: emails/templates/admin-shipped-order.php:24
+msgid "Tracking Number"
+msgstr ""
+
+#: ShipmendoLite.php:82
+msgid "Company Name"
+msgstr ""
+
+#: ShipmendoLite.php:86
+msgid "Tracking URL"
+msgstr ""
+
+#: ShipmendoLite.php:119
+msgid "Settings"
+msgstr ""
+
+#: ShipmendoLite.php:126
+msgid "Support"
+msgstr ""
+
+#: ShipmendoLite.php:133 ShipmendoLite.php:253
+msgid "Upgrade Now"
+msgstr ""
+
+#: ShipmendoLite.php:146
+msgid ""
+"This Wordpress plugin allows you share the shipping process of your orders "
+"with WooCommerce. You can ensure a more effective use by completing the "
+"following settings."
+msgstr ""
+
+#: ShipmendoLite.php:160
+msgid "Enable SMS Notification:"
+msgstr ""
+
+#: ShipmendoLite.php:173
+msgid "SMS Message Template:"
+msgstr ""
+
+#: ShipmendoLite.php:179
+msgid "Available Shortcodes:"
+msgstr ""
+
+#: ShipmendoLite.php:192
+msgid ""
+"Get the <a href=\"%s\">\"WP SMS Functions\"</a> plugin to activate the SMS "
+"sending feature."
+msgstr ""
+
+#: ShipmendoLite.php:200
+msgid "Enable Email Notification:"
+msgstr ""
+
+#: ShipmendoLite.php:212
+msgid "Default Shipment Company"
+msgstr ""
+
+#: ShipmendoLite.php:237
+msgid "Save Changes"
+msgstr ""
+
+#: ShipmendoLite.php:253
+msgid ""
+"You can <b>fully automated</b> the shipping processes on your WooCommerce "
+"website. <a class=\"button\" href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: ShipmendoLite.php:291 ShipmendoLite.php:306
+msgid "Shipped"
+msgstr ""
+
+#: ShipmendoLite.php:296
+msgid "Shipped (%s)"
+msgid_plural "Shipped (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ShipmendoLite.php:341
+msgid "Shipment Details"
+msgstr ""
+
+#: ShipmendoLite.php:377
+msgid "Update order status as 'Shipped'."
+msgstr ""
+
+#: ShipmendoLite.php:380 ShipmendoLite.php:457
+#: emails/templates/admin-shipped-order.php:31
+msgid "Track Order"
+msgstr ""
+
+#: ShipmendoLite.php:448 emails/templates/admin-shipped-order.php:17
+msgid "Shipping Company"
+msgstr ""
+
+#: emails/shipped-order.php:7
+msgid "Order has been shipped!"
+msgstr ""
+
+#: emails/shipped-order.php:8
+msgid "This email is received when an order status is changed to Shipped."
+msgstr ""
+
+#: emails/shipped-order.php:17
+msgid "[{site_title}]: Order has been shipped #{order_number}"
+msgstr ""
+
+#: emails/shipped-order.php:21
+msgid "Order has been shipped: #{order_number}"
+msgstr ""
+
+#: emails/templates/admin-shipped-order.php:10
+msgid "Your order(#%s) has been shipped!"
+msgstr ""
+
+#: emails/templates/admin-shipped-order.php:12
+msgid "You can view the shipment information following."
+msgstr ""
+
+#: emails/templates/admin-shipped-order.php:28
+msgid "Online Tracking"
+msgstr ""
+
+#: inc/functions.php:37
+msgid "SMS sent to %s. Text: %s"
+msgstr ""
+
+#: inc/functions.php:63
+msgid "Aras Kargo"
+msgstr ""
+
+#: inc/functions.php:64
+msgid "MNG Kargo"
+msgstr ""
+
+#: inc/functions.php:65
+msgid "PTT Kargo"
+msgstr ""
+
+#: inc/functions.php:66
+msgid "Sürat Kargo"
+msgstr ""
+
+#: inc/functions.php:67
+msgid "UPS Kargo"
+msgstr ""
+
+#: inc/functions.php:68
+msgid "Yurtiçi Kargo"
+msgstr ""
+
+#: shipmendo-lite.php:29
+msgid ""
+"<strong>shipmendo</strong> must use with <a href=\"%s\">WooCommerce</a>!"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/shipmendo-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Share your shipping process with your customers with shipmendo - Lite. "
+"Supported shipment gateways: Aras, MNG, PTT, Surat, UPS ,Yurtici"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "grilabs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.gri.net"
+msgstr ""

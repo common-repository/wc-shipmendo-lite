@@ -1,0 +1,269 @@
+# Copyright (C) 2021 WooCommerce Kargo Takip Eklentisi
+# This file is distributed under the same license as the WooCommerce Kargo Takip Eklentisi package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Kargo Takip Eklentisi 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shipmendo-lite\n"
+"POT-Creation-Date: 2021-11-08 08:29:01+00:00\n"
+"PO-Revision-Date: 2021-11-08 11:29+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ShipmendoLite.php:30
+msgid ""
+"Dear {customer_name}, Your order(#{order_number}) shipped with "
+"{cargo_company_info}. To track your shipping: {url}"
+msgstr ""
+"Merhaba, {customer_name}. #{order_number} numaralı siparişiniz "
+"{cargo_company_info} ile gönderilmiştir. Takip etmek için: {url}"
+
+#. Plugin Name of the plugin/theme
+#: ShipmendoLite.php:53 ShipmendoLite.php:54
+msgid "shipmendo - Lite"
+msgstr "shipmendo - Lite"
+
+#: ShipmendoLite.php:66
+msgid "Customer Name"
+msgstr "Müşteri Adı"
+
+#: ShipmendoLite.php:70
+msgid "Order Number"
+msgstr "Sipariş Numarası"
+
+#: ShipmendoLite.php:74
+msgid "Order ID"
+msgstr "Sipariş ID"
+
+#: ShipmendoLite.php:78 ShipmendoLite.php:371 ShipmendoLite.php:452
+#: emails/templates/admin-shipped-order.php:24
+msgid "Tracking Number"
+msgstr "Takip Numarası"
+
+#: ShipmendoLite.php:82
+msgid "Company Name"
+msgstr "Kargo Firması"
+
+#: ShipmendoLite.php:86
+msgid "Tracking URL"
+msgstr "Takip Bağlantısı"
+
+#: ShipmendoLite.php:119
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ShipmendoLite.php:126
+msgid "Support"
+msgstr "Destek"
+
+#: ShipmendoLite.php:133 ShipmendoLite.php:253
+msgid "Upgrade Now"
+msgstr "Şimdi Yükselt"
+
+#: ShipmendoLite.php:146
+msgid ""
+"This Wordpress plugin allows you share the shipping process of your orders "
+"with WooCommerce. You can ensure a more effective use by completing the "
+"following settings."
+msgstr ""
+"Bu Wordpress eklentisi WooCommerce e-ticaret sitenizde, kargo gönderim "
+"detaylarının müşterinizle paylaşılmasını sağlar. Aşağıdaki ayarları "
+"tamamlayarak daha etkin kullanım sağlayabilirsiniz."
+
+#: ShipmendoLite.php:160
+msgid "Enable SMS Notification:"
+msgstr "SMS Bildirimlerini Etkinleştir:"
+
+#: ShipmendoLite.php:173
+msgid "SMS Message Template:"
+msgstr "SMS Mesaj Şablonu:"
+
+#: ShipmendoLite.php:179
+msgid "Available Shortcodes:"
+msgstr "Kullanılabilir kısa kodlar:"
+
+#: ShipmendoLite.php:192
+msgid ""
+"Get the <a href=\"%s\">\"WP SMS Functions\"</a> plugin to activate the SMS "
+"sending feature."
+msgstr ""
+"SMS gönderimini aktif etmek için <a href=\"%s\">”WP SMS Functions”</a> "
+"eklentisini yüklemelisiniz."
+
+#: ShipmendoLite.php:200
+msgid "Enable Email Notification:"
+msgstr "E-posta Bildirimlerini Etkinleştir:"
+
+#: ShipmendoLite.php:212
+msgid "Default Shipment Company"
+msgstr "Varsayılan Gönderim Firması"
+
+#: ShipmendoLite.php:237
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: ShipmendoLite.php:253
+msgid ""
+"You can <b>fully automated</b> the shipping processes on your WooCommerce "
+"website. <a class=\"button\" href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+"WooCommerce e-ticaret sitenizin kargo süreçlerini <b>tam otomatik</b> "
+"sürdürmek ister misiniz? <a class=\"button\" href=\"%s\" target=\"_blank"
+"\">Şimdi Yükselt</a>"
+
+#: ShipmendoLite.php:291 ShipmendoLite.php:306
+msgid "Shipped"
+msgstr "Kargoya Verildi"
+
+#: ShipmendoLite.php:296
+msgid "Shipped (%s)"
+msgid_plural "Shipped (%s)"
+msgstr[0] "Kargoya Verildi (%s)"
+msgstr[1] "Kargoya Verildi (%s)"
+
+#: ShipmendoLite.php:341
+msgid "Shipment Details"
+msgstr "Gönderi Detayları"
+
+#: ShipmendoLite.php:377
+msgid "Update order status as 'Shipped'."
+msgstr "Sipariş durumunu 'Kargoya Verildi' olarak güncelle."
+
+#: ShipmendoLite.php:380 ShipmendoLite.php:457
+#: emails/templates/admin-shipped-order.php:31
+msgid "Track Order"
+msgstr "Kargo Takibi"
+
+#: ShipmendoLite.php:448 emails/templates/admin-shipped-order.php:17
+msgid "Shipping Company"
+msgstr "Gönderim Firması"
+
+#: emails/shipped-order.php:7
+msgid "Order has been shipped!"
+msgstr "Siparişiniz yola çıktı!"
+
+#: emails/shipped-order.php:8
+msgid "This email is received when an order status is changed to Shipped."
+msgstr "Bu e-mail sipariş durumu Kargoya Verildi durumunda alınır."
+
+#: emails/shipped-order.php:17
+msgid "[{site_title}]: Order has been shipped #{order_number}"
+msgstr "[{site_title}]: Siparişiniz Yola Çıktı #{order_number}"
+
+#: emails/shipped-order.php:21
+msgid "Order has been shipped: #{order_number}"
+msgstr "Siparişiniz yola çıktı: #{order_number}"
+
+#: emails/templates/admin-shipped-order.php:10
+msgid "Your order(#%s) has been shipped!"
+msgstr "#%s Siparişiniz kargoya verildi!"
+
+#: emails/templates/admin-shipped-order.php:12
+msgid "You can view the shipment information following."
+msgstr "Gönderi detayları aşağıda yer almaktadır."
+
+#: emails/templates/admin-shipped-order.php:28
+msgid "Online Tracking"
+msgstr "Kargo Takibi"
+
+#: inc/functions.php:37
+msgid "SMS sent to %s. Text: %s"
+msgstr "%s numarasına SMS gönderimi tamamlandı. Mesaj: %s"
+
+#: inc/functions.php:63
+msgid "Aras Kargo"
+msgstr "Aras Kargo"
+
+#: inc/functions.php:64
+msgid "MNG Kargo"
+msgstr "MNG Kargo"
+
+#: inc/functions.php:65
+msgid "PTT Kargo"
+msgstr "PTT Kargo"
+
+#: inc/functions.php:66
+msgid "Sürat Kargo"
+msgstr "Sürat Kargo"
+
+#: inc/functions.php:67
+msgid "UPS Kargo"
+msgstr "UPS Kargo"
+
+#: inc/functions.php:68
+msgid "Yurtiçi Kargo"
+msgstr "Yurtiçi Kargo"
+
+#: shipmendo-lite.php:29
+msgid ""
+"<strong>shipmendo</strong> must use with <a href=\"%s\">WooCommerce</a>!"
+msgstr ""
+"<strong>shipmendo</strong>, <a href=“%s”>WooCommerce</a> ile birlikte "
+"kullanılabilir. Lütfen WooCommerce’i aktif hale getirin!"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/shipmendo-lite/"
+msgstr "https://wordpress.org/plugins/shipmendo-lite/"
+
+#. Description of the plugin/theme
+msgid ""
+"Share your shipping process with your customers with shipmendo - Lite. "
+"Supported shipment gateways: Aras, MNG, PTT, Surat, UPS ,Yurtici"
+msgstr ""
+"Siparişleriniz kargo durumunu müşterilerinizle SMS/e-posta yoluyla paylaşın. "
+"Desteklenen firmalar: Aras, MNG, PTT, Sürat, UPS, Yurtiçi"
+
+#. Author of the plugin/theme
+msgid "grilabs"
+msgstr "grilabs"
+
+#. Author URI of the plugin/theme
+msgid "https://www.gri.net"
+msgstr "https://www.gri.net"
+
+#~ msgid "Shipment Tracking"
+#~ msgstr "WooCommerce Kargo Takibi"
+
+#~ msgid "Simple Shipment Tracking for WooCommerce Orders"
+#~ msgstr "WooCommerce Kargo Takip Eklentisi"
+
+#~ msgid "www.gri.net"
+#~ msgstr "www.gri.net"
+
+#~ msgid "Enable Send SMS:"
+#~ msgstr "SMS Gönderimini Aktifleştir:"
+
+#~ msgid "Tracking SMS Message:"
+#~ msgstr "Kargo Takibi İçin SMS:"
+
+#~ msgid "Enable Send Email:"
+#~ msgstr "E-posta Gönderimini Aktifleştir"
+
+#~ msgid "Update"
+#~ msgstr "Güncelle"
+
+#~ msgid "Cargo Information"
+#~ msgstr "Kargo Bilgileri"
+
+#~ msgid "Cargo Tracking Number"
+#~ msgstr "Kargo Takip Numarası"
+
+#~ msgid "Shipped Order"
+#~ msgstr "Sipariş Kargoda"
+
+#~ msgid "Congratulations for shipping."
+#~ msgstr "Siparişiniz kargolandığı için tebrikler."
+
+#~ msgid "Cargo Name"
+#~ msgstr "Kargo İsmi"
+
+#~ msgid "Click here to follow your cargo"
+#~ msgstr "Kargonuzu takip etmek için buraya tıklayın"
+
+#~ msgid "WooCommerce Kargo Takip Eklentisi"
+#~ msgstr "WooCommerce Cargo Tracking Plugin"
